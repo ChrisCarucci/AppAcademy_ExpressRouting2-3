@@ -12,4 +12,4 @@ app.use('/colors', colorRouter)
 
 
 const port = 5000;
-app.listen(port, () => console.log('Server is listening on port', port));
+app.listen(port, () => console.log(`Server is listening on port: ${port)`);
